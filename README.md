@@ -7,7 +7,7 @@ Basic libp2p Rust implementation which creates a basic TCP swarm, establishes co
 Copy the PeerId from the ip4 address (end of path);
 
 In a second terminal:
-```cargo run -- /ip4/127.0.0.1/tcp/<COPIED_PEER_ID>
+```cargo run -- /ip4/127.0.0.1/tcp/<COPIED_PEER_ID>```
 ..where COPIED_PEER_ID is the number you copied from terminal one.
 
 Observe that these two peers are connected, and ping each other every 15 seconds!
